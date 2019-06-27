@@ -56,6 +56,12 @@
                     android:inputType="numberDecimal"
                     android:hint="Precio"
                     />
+                <Button
+                    android:id="@+id/btnSave"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minWidth="88dp"
+                    android:text="Save"/>
 
             </LinearLayout>
         <include layout="@layout/item_list" />
